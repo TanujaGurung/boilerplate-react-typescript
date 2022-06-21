@@ -1,4 +1,4 @@
-latest ESLint + Prettier + Typescript and React Project ready boilerplate.
+**latest ESLint + Prettier + Typescript and React Project ready boilerplate.**
 
 This is the boilerplate for ESLint + Prettier + Typescript and React Project with husky hook.
 
@@ -8,7 +8,7 @@ Usually, the problem is that every time you have to set up ESLint and Prettier y
 
 We are going to use the basic configuration of ESLint and Prettier to have fewer headaches.
 
-step 1 : Create react app
+**step 1 : Create react app**
 
 ➜ yarn create react-app boilerplate-react-typescript --template typescript or ➜ npx create-react-app boilerplate-react-typescript --template typescript ➜ cd boilerplate-react-typescript
 
@@ -16,7 +16,7 @@ step 1 : Create react app
 
 What is ESLint? ESLint is a JavaScript linting open source project and is used to find problems and syntax issues in your code, it will help us find broken logic that would be found only in run time.
 
-step 2 : To install ESLint:
+**step 2 : To install ESLint:**
 
 ➜ yarn add -D eslint or ➜ npm install eslint --save-dev
 
@@ -201,7 +201,7 @@ What is Husky? Husky is a tool that allows us to easily wrangle Git hooks and ru
 
 It works by including an object right within our package.json file that configures Husky to run the scripts we specify. After that, Husky handles managing at which point in the Git lifecycle our scripts will run.
 
-step 4: install husky
+**step 4: install husky**
 
 yarn add husky or npm install husky
 
