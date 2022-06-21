@@ -1,0 +1,26 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+
+MSG_FILE=$1
+FILE_CONTENT="$(cat $MSG_FILE)"
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NO_COLOR='\033[0m'
+
+# Initialize constants here
+export REGEX='^\[.*\] .+|^Merge branch'
+export ERROR_MSG="Commit message format must match regex \"${REGEX}\""
+
+echo $MSG_FILE
+echo $FILE_CONTENT
+
+if [[ $FILE_CONTENT =~ $REGEX ]]; then
+	echo -e "${GREEN} Good commit! ${NO_COLOR}"
+else
+  echo -e "${RED} Bad commit \"$FILE_CONTENT\" ${NO_COLOR}"
+	echo $ERROR_MSG
+	exit 1
+fi
+
+exit 0
