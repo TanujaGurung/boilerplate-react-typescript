@@ -254,3 +254,4 @@ https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-a
 https://blog.devgenius.io/eslint-prettier-typescript-and-react-in-2022-e5021ebca2b1
 https://blog.logrocket.com/build-robust-react-app-husky-pre-commit-hooks-github-actions/
 https://typicode.github.io/husky/#/?id=features
+https://dev.to/monfernape/enforce-husky-pre-commit-with-eslint-prettier-in-monorepo-55jc#:~:text=Go%20to%20your%20frontend%20project%20and%20install%20eslint%2C,eslint-plugin-prettier%20eslint-config-prettier%20--save-dev%20npm%20install%20--save-dev%20--save-exact%20prettier
